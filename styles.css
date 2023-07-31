@@ -1,0 +1,103 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-top: 5vh;
+    font-size: 5em;
+}
+
+.recipe-page-name-text {
+    background-color: white;
+    margin:5vh auto;
+    margin-bottom: 5vh;
+    width: 25%;
+    color: white;
+    -webkit-text-stroke: 2.5px #000000;
+    border: 5px solid #000000;
+    border-radius: 5px;
+}
+
+.recipe-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5vh;
+    width: 15%;
+    height: 35vh;
+    background-color: aqua;
+    align-items: center;
+}
+.recipe-container > .button-container > a > button {
+    background-color: white;
+    margin: 1.25vh auto;
+    text-align: center;
+    width: 25vh;
+    height: 7.5vh;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.recipe-container > .button-container > a {
+    display: flex;
+    text-decoration: none;
+}
+
+.button-container {
+    margin: auto;
+    text-align: center;
+    width: 25vh;
+}
+
+.recipe-info-container {
+    background-color: white;
+    width: 75vh;
+    margin: auto;
+    padding: 2.5vh;
+    border-radius: 5px;
+    border: 2.5px solid #000000;
+}
+
+.recipe-info-container > img {
+    margin-top: 10px;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+}
+
+.recipe-info-container > h1 {
+    margin: 0;
+    margin-bottom: 2.5vh;
+    font-size: 3em;
+}
+
+footer {
+    margin: auto;
+    background-color: white;
+    margin: 0;
+    padding: 2.5vh 0;
+    margin-top: 5vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #26ffba;
+}
+
+footer > a {
+    margin: 0 1%;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    color: #005957;
+    paint-order: stroke fill;
+}
